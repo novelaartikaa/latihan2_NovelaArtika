@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventaris Barang</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Inventaris Barang</h2>
+        
+        <form id="inventory-form">
+            <input type="text" id="nama-barang" placeholder="Nama Barang" required>
+            <input type="number" id="jumlah" placeholder="Jumlah" required>
+            <select id="kategori">
+                <option value="Elektronik">Elektronik</option>
+                <option value="Furniture">Furniture</option>
+                <option value="Alat Tulis">Alat Tulis</option>
+                <option value="Peralatan">Peralatan</option>
+            </select>
+            <button type="submit">Tambah Barang</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama Barang</th>
+                    <th>Jumlah</th>
+                    <th>Kategori</th>
+                </tr>
+            </thead>
+            <tbody id="barang-list">
+                <tr>
+                    <td>Komputer</td>
+                    <td>10</td>
+                    <td>Elektronik</td>
+                </tr>
+                <tr>
+                    <td>Kursi</td>
+                    <td>5</td>
+                    <td>Furniture</td>
+                </tr>
+                <tr>
+                    <td>Kalkulator</td>
+                    <td>8</td>
+                    <td>Elektronik</td>
+                </tr>
+                <tr>
+                    <td>Pena</td>
+                    <td>12</td>
+                    <td>Alat Tulis</td>
+                </tr>
+                <tr>
+                    <td>Sapu</td>
+                    <td>3</td>
+                    <td>Peralatan</td>
+                </tr>
+                <tr>
+                    <td>Monitor</td>
+                    <td>15</td>
+                    <td>Elektronik</td>
+                </tr>
+                <tr>
+                    <td>Pensil</td>
+                    <td>7</td>
+                    <td>Alat Tulis</td>
+                </tr>
+                <tr>
+                    <td>Pel</td>
+                    <td>9</td>
+                    <td>Peralatan</td>
+                </tr>
+                <tr>
+                    <td>Meja</td>
+                    <td>20</td>
+                    <td>Furniture</td>
+                </tr>
+                <tr>
+                    <td>Komputer</td>
+                    <td>6</td>
+                    <td>Elektronik</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
